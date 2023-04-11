@@ -1,3 +1,7 @@
+/*The code prompts the user to enter a comment, and then checks whether the comment is a valid C++ comment or not. 
+If the comment begins with "//", it is considered a comment. If it begins with "/" and ends with "/", it is also considered a comment.
+If the comment does not start with "/" or if it starts with "/" but does not end with "/", it is not considered a comment. 
+The program then outputs whether the entered text is a comment or not.*/
 #include<iostream>
 using namespace std;
 
